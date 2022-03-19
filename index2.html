@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEB KALKULATOR SEEGITIGA</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      .map {
+          height: 400px;
+          width: 100%;
+      }
+      body {
+          background: white;
+      }
+      div container {
+          width: 100%;
+          border: 1px; solid #000;
+      }
+      header, footer{
+          color: white;
+          background: rgb(36, 36, 36);
+          clear: left;
+          padding: 1px;
+          -webkit-padding-start: 0ch;
+          text-align: center;
+      }
+      nav {
+          float: top;
+          max-width: 90px;
+          height: 10px;
+          margin: 0px;
+          padding-right: 100px;
+          border-right: 10px;
+      }
+
+      nav ul{
+          list-style-type: circle;
+          padding: 20px;
+      }
+      nav ul a{
+          text-decoration: none;
+      }
+      article {
+          margin-right: 100px;
+          margin-left: 300px;
+          border-right: 3px;
+          padding: 2px;
+          overflow: hidden;
+      }
+    </style>
+  </head>
+  <header>
+    <h1> <center> <span style="font-family: Monserrat; color: White">WEB KALKULATOR LINGKARAN</span> </span></center></h1>
+</header>
+  <div style="background-color: lime; color: padding=1px; font-family: Tempus Sans ITC">
+    <p align="center"><a href="index.html">Pengertian| </a><a href="index2.html"> Calculator | </a></p>
+  </div>
+  <body>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Lingkaran</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Masukan nilai jari - jari</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="ipt_r" /></td>
+          </tr>
+          <tr>
+            <td><button onclick="hitung()">Hitung</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Luas lingkaran</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="opt_luas" disabled /></td>
+          </tr>
+          <tr>
+            <td>Keliling lingkarang</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="opt_keliling" disabled /></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <script type="text/javascript" src="lingkaran.js"></script>
+    <footer> Copyrights &copy; Ais Arina Rahmawati -PEND MATH-UNNES-  X - Nur Habibie Iftah Kurniawan -IF-RISTEK-ITTP-  2021 -<script type="text/javascript">var AWTahun = new Date;document.write(AWTahun.getFullYear());</script></footer></footer>
+  </body>
+</html>
